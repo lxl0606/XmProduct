@@ -108,8 +108,6 @@ a:hover {
   margin-left: 20px;
   margin-right: 12px;
   border: 0 none;
-  width: 22px;
-  height: 22px;
   float: left;
 }
 
@@ -135,7 +133,6 @@ a:hover {
   width: 28px;
   height: 18px;
   display: block;
-  background: url(../images/hot.gif) no-repeat center center;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -148,20 +145,14 @@ a:hover {
 }
 
 .city-nav-left dl dd {
-  position: relative;
   z-index: 50;
-}
-
-.city-nav-left dl dd a img {
-  margin-top: 23px;
 }
 
 .city-nav-left dl dd {
   width: auto;
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
+  line-height: 50px;
   font-size: 18px;
-  background: url(../images/icon-row.png) no-repeat center right;
 }
 
 .city-nav-left dl dd:hover {
@@ -169,37 +160,30 @@ a:hover {
 }
 
 .city-nav-left dl dd a {
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
+  line-height: 50px;
   font-size: 14px;
   text-indent: 33px;
-}
-
-.city-nav-left dl dd a:hover {
-  background: url(../images/icon-hover.png);
 }
 
 .city-nav-casket {
   display: none;
   position: absolute;
-  top: -2px;
+  top: 0px;
   left: 230px;
   padding: 10px;
-  width: 520px;
+  width: 900px;
+  height: 450px;
   overflow: hidden;
-  font-size: 13px;
-  line-height: 2em;
-  border: 1px solid #0070ae;
   background: #fff;
   z-index: 10002;
 }
 
 .city-nav-casket li {
-  float: left;
-  margin: 8px 0px;
-  padding: 0px 8px;
-  line-height: 1em;
-  border-right: 1px solid #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
 }
 
 .city-nav-casket li a {
@@ -207,16 +191,8 @@ a:hover {
   text-decoration: none;
 }
 
-.city-nav-left dl dd .city-nav-casket li a {
-  width: auto;
-  height: auto;
-  color: #222;
-  line-height: inherit;
-  font-size: 13px;
-}
-
 .city-nav-left dl dd .city-nav-casket li a:hover {
-  color: #08acee;
+  color: #ff6700;
   background: none;
 }
 
@@ -260,7 +236,7 @@ a:hover {
   height: 410px;
   position: absolute;
   left: 50%;
-  margin-left: -383px;
+  margin-left: -372.5px;
 }
 
 .next {
