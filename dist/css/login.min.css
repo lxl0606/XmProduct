@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, ul, ol, dl, dd, fieldset, input, option, textarea, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+.lgImg {
+  width: 100%;
+  height: 98px;
+}
+
+.lgImg img {
+  margin-left: 110px;
+}
+
+.banner {
+  width: 100%;
+  height: 588px;
+  background: url(../img/lgImg/du-banner.jpg) no-repeat center top;
+  position: relative;
+}
+
+.banner #login {
+  width: 410px;
+  height: 558px;
+  position: absolute;
+  bottom: 0;
+  right: 111px;
+  background: white;
+  /* padding: 0 31px; */
+}
+
+.banner #login #zhLogin {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 32px;
+  padding-bottom: 36px;
+}
+
+.banner #login #zhLogin p {
+  font-size: 24px;
+  color: #666666;
+}
+
+.banner #login #zhLogin p:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.banner #login #zhLogin p:nth-of-type(1) {
+  color: #ff6700;
+}
+
+.banner #login #zhLogin span {
+  color: #e0e0e0;
+  font-size: 26px;
+}
+
+.banner #login form {
+  width: 100%;
+}
+
+.banner #login form input {
+  margin-left: 32px;
+  width: 348px;
+  height: 48px;
+  margin-bottom: 14px;
+}
+
+.banner #login form input:last-child {
+  background: #ff6700;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.banner #login #lastLogin {
+  width: 348px;
+  height: 16px;
+  /* background: red; */
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner #login #lastLogin #phone a {
+  font-size: 15px;
+  color: #ff6700;
+}
+
+.banner #login #lastLogin p a {
+  font-size: 15px;
+  color: #6f6d6d;
+}
+
+.res_foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.res_foot p {
+  font-size: 13px;
+  color: #757575;
+}
+
+.res_foot p:hover {
+  color: #333333;
+  cursor: pointer;
+}
+
+.res_foot span {
+  color: #b59da9;
+  margin: 12px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 16px;
+  color: #757575;
+  font-weight: normal;
+}
