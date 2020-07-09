@@ -1,0 +1,820 @@
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, ul, ol, dl, dd, fieldset, input, option, textarea, td {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "微软雅黑";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  border: none;
+}
+
+header {
+  width: 100%;
+  height: 38px;
+  background: #333333;
+}
+
+header .headerMin {
+  width: 1226px;
+  height: 38px;
+  margin: 0 auto;
+  background: #333333;
+}
+
+header .headerMin #leftNav {
+  width: 706px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  float: left;
+}
+
+header .headerMin #leftNav a {
+  text-align: center;
+  color: #b0b0b0;
+}
+
+header .headerMin #leftNav a:hover {
+  color: white;
+}
+
+header .headerMin #rightNav {
+  float: left;
+  width: 130px;
+  height: 38px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 246px;
+  margin-right: 24px;
+}
+
+header .headerMin #rightNav a {
+  color: #b0b0b0;
+}
+
+header .headerMin #rightNav a:hover {
+  color: white;
+}
+
+header .headerMin #bus {
+  float: right;
+  width: 120px;
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .headerMin #bus a {
+  color: #b0b0b0;
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+header .headerMin #bus a:hover {
+  color: #ff6700;
+}
+
+header .headerMin #bus input {
+  width: 60px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  background: #333333;
+  color: #b0b0b0;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+}
+
+nav #navMin {
+  width: 1226px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+nav #navMin a {
+  color: black;
+}
+
+nav #navMin a:hover {
+  color: #ff6700;
+}
+
+nav #navMin img {
+  float: left;
+  display: block;
+  margin-top: 22px;
+}
+
+nav #navMin #navCenter {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 598px;
+  height: 100px;
+  margin-left: 186px;
+}
+
+nav #navMin #navRight {
+  float: right;
+  border: 1px solid #e0e0e0;
+  width: 296px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+}
+
+nav #navMin #navRight #ssLeft {
+  width: 244px;
+  height: 50px;
+  border-right: 1px solid #e0e0e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav #navMin #navRight #ssLeft span {
+  background: #eeeeee;
+  font-size: 12px;
+  color: #757575;
+  padding: 2px;
+}
+
+nav #navMin #navRight #ssLeft span:hover {
+  background: #ff6700;
+  color: white;
+  cursor: pointer;
+}
+
+nav #navMin #navRight #ssLeft #span1 {
+  margin-left: 86px;
+  margin-right: 14px;
+}
+
+nav #navMin #navRight #ssRight {
+  width: 51px;
+  background: white;
+  position: relative;
+}
+
+nav #navMin #navRight #ssRight img {
+  margin-left: 17px;
+  margin-top: 19px;
+}
+
+.footer {
+  width: 100%;
+  height: 272px;
+}
+
+.footer .footerMin {
+  width: 1226px;
+  height: 272px;
+  margin: 0 auto;
+}
+
+.ftTop {
+  width: 1226px;
+  height: 78px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 34px;
+}
+
+.ftTop ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ftTop ul li {
+  width: 242px;
+  height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.ftTop ul li .picCen {
+  height: 27px;
+  font-size: 15px;
+  color: #616161;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.ftTop ul li .picCen img {
+  display: block;
+  margin-right: 10px;
+}
+
+.ftTop ul li .picCen span:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.ftCenter {
+  width: 1226px;
+  height: 118px;
+  background: white;
+  margin-bottom: 30px;
+}
+
+.ftCenter .fcLeft {
+  float: left;
+  width: 974px;
+  height: 118px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.ulList {
+  width: 61px;
+  height: 118px;
+  float: left;
+  margin-right: 96px;
+}
+
+.ulList ul li {
+  font-size: 10px;
+  color: #757575;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.ulList ul li:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.ulList ul .first {
+  font-size: 13px;
+  color: black;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.ulList ul .first:hover {
+  color: black;
+}
+
+.fcRight {
+  width: 250px;
+  height: 118px;
+  float: right;
+}
+
+.fcRight p {
+  font-size: 22px;
+  color: #ff6700;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.fcRight .p1 {
+  font-size: 11px;
+  color: #757575;
+  text-align: center;
+}
+
+.fcRight .ss1 {
+  width: 118px;
+  height: 28px;
+  border: 1px solid #ff6700;
+  margin-left: 66px;
+  margin-top: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 12px;
+  color: #ff6700;
+}
+
+.fcRight .ss1 img {
+  margin-right: 5px;
+}
+
+.lastFoot {
+  width: 100%;
+  height: 240px;
+  background: #fafafa;
+}
+
+.lastFoot .lfMin {
+  width: 1226px;
+  height: 240px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.lastFoot .lfImg {
+  float: left;
+  width: 54px;
+  height: 137px;
+  margin-top: 32px;
+}
+
+.lastFoot .rgImg {
+  float: left;
+  width: 1170px;
+  height: 137px;
+  margin-top: 32px;
+}
+
+.lastFoot .rgImg .ptext {
+  width: 1150px;
+  height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 8px;
+  margin-bottom: 12px;
+}
+
+.lastFoot .rgImg .ptext p {
+  font-size: 14px;
+  color: #757575;
+  line-height: 19px;
+  margin-right: 14px;
+}
+
+.lastFoot .rgImg .ptext p:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.lastFoot .rgImg .ptp {
+  font-size: 14px;
+  color: #b0b0b0;
+}
+
+.lastFoot .rgImg .ptp p {
+  margin-bottom: 6px;
+  margin-left: 8px;
+}
+
+.lastFoot .rgImg .ptp p:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.lastFoot .ftImg {
+  display: block;
+  margin: 0 auto;
+}
+
+.parameter {
+  width: 100%;
+  height: 64px;
+}
+
+.parameter .par {
+  width: 1226px;
+  height: 64px;
+  /* background: pink; */
+  margin: 0 auto;
+  border-top: 1px solid #e0e0e0;
+}
+
+.parameter .par .parleft {
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 140px;
+  height: 64px;
+}
+
+.parameter .par .parleft h5 {
+  font-weight: normal;
+  font-size: 15px;
+  color: #333;
+}
+
+.parameter .par .parleft span {
+  color: #61abea;
+  font-size: 11px;
+}
+
+.parameter .par .parleft p {
+  font-size: 10px;
+  color: #616161;
+}
+
+.parameter .par .parleft p:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.parameter .par .parRight {
+  float: right;
+  width: 264px;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.parameter .par .parRight p {
+  font-size: 13px;
+  color: #616161;
+}
+
+.parameter .par .parRight p:hover {
+  color: #ff6700;
+  cursor: pointer;
+}
+
+.parameter .par .parRight p span {
+  margin-left: 14px;
+  color: #e0e2e8;
+}
+
+.Magnifier {
+  width: 100%;
+}
+
+.Magnifier .MagMin {
+  width: 1226px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Magnifier .MagMin .MagRight {
+  width: 650px;
+  height: 1545px;
+}
+
+.Magnifier .MagMin .MagRight h3 {
+  font-size: 24px;
+  color: #212121;
+  margin: 26px 0 14px;
+  font-weight: normal;
+}
+
+.Magnifier .MagMin .MagRight p {
+  font-size: 13px;
+  color: #b0b0b0;
+  line-height: 21px;
+}
+
+.Magnifier .MagMin .MagRight p span {
+  font-size: 13px;
+  color: #ff6700;
+}
+
+.Magnifier .MagMin .MagRight h5 {
+  font-weight: normal;
+  margin: 18px 0 18px;
+  color: #ff6700;
+  font-size: 14px;
+}
+
+.Magnifier .MagMin .MagRight h4 {
+  font-weight: normal;
+  color: #ff6700;
+  font-size: 20px;
+}
+
+.Magnifier .MagMin .MagRight .area {
+  width: 606px;
+  height: 148px;
+  margin: 18px 0 34px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.Magnifier .MagMin .MagRight .area .areatxt {
+  width: 100%;
+  height: 103px;
+  background: #fafafa;
+  margin-top: 44px;
+  border: 1px solid #e0e0e0;
+}
+
+.Magnifier .MagMin .MagRight .area .areatxt .areamin {
+  width: 300px;
+  height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.Magnifier .MagMin .MagRight .area .areatxt .areamin p {
+  font-size: 14px;
+  color: #333333;
+}
+
+.Magnifier .MagMin .MagRight .area .areatxt .areamin span {
+  font-size: 14px;
+  color: #ff6700;
+}
+
+.Magnifier .MagMin .MagRight .area .areatxt h4 {
+  font-weight: normal;
+  color: #ff6700;
+  font-size: 13px;
+  margin-top: 9px;
+  margin-left: 56px;
+}
+
+.Magnifier .MagMin .MagRight h3 {
+  font-size: 20px;
+  color: #333333;
+  font-weight: normal;
+}
+
+.Magnifier .MagMin .MagRight .edition {
+  width: 100%;
+  /* height: 105px; */
+  margin: 15px auto 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Magnifier .MagMin .MagRight .edition .ed1 {
+  width: 296px;
+  height: 45px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Magnifier .MagMin .MagRight .edition .ed1:hover {
+  border: 1px solid #ff6700;
+  cursor: pointer;
+}
+
+.Magnifier .MagMin .MagRight .edition .ed1 span:first-child {
+  font-size: 16px;
+  color: #333333;
+  margin-right: 36px;
+}
+
+.Magnifier .MagMin .MagRight .edition .ed1 span:last-child {
+  font-size: 16px;
+  color: #757575;
+}
+
+.Magnifier .MagMin .MagRight .protect {
+  width: 100%;
+  height: 138px;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  margin-bottom: 1px;
+}
+
+.Magnifier .MagMin .MagRight .protect img {
+  display: block;
+  margin: 32px 20px 32px 26px;
+  float: left;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx {
+  float: left;
+  width: 216px;
+  height: 75px;
+  /* background: orange; */
+  margin: 32px 180px 34px 0;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx p {
+  line-height: 26px;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx p span {
+  font-size: 12px;
+  margin: 4px;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx p span:nth-child(2) {
+  color: #757575;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx p:nth-child(1) {
+  font-size: 18px;
+  color: #333333;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx p:nth-child(2) {
+  font-size: 12px;
+  color: #b7b0b0;
+}
+
+.Magnifier .MagMin .MagRight .protect .poTx p:nth-child(3) {
+  font-size: 12px;
+  color: #757575;
+}
+
+.Magnifier .MagMin .MagRight .protect .price {
+  float: right;
+  position: absolute;
+  top: 92px;
+  right: 18px;
+  color: #333333;
+}
+
+.Magnifier .MagMin .MagRight .sum {
+  width: 100%;
+  height: 140px;
+  background: #f9f9fa;
+  margin: 32px 0 32px;
+  position: relative;
+}
+
+.Magnifier .MagMin .MagRight .sum p {
+  color: #616161;
+  font-size: 13px;
+  position: absolute;
+  left: 27px;
+  top: 34px;
+}
+
+.Magnifier .MagMin .MagRight .sum p span {
+  color: #616161;
+  margin-left: 318px;
+}
+
+.Magnifier .MagMin .MagRight .sum h2 {
+  font-size: 22px;
+  color: #ff6700;
+  font-weight: normal;
+  position: absolute;
+  left: 27px;
+  top: 83px;
+}
+
+.Magnifier .MagMin .MagRight .car {
+  width: 299px;
+  height: 52px;
+  background: #ff6700;
+  text-align: center;
+  line-height: 52px;
+  font-size: 17px;
+  color: white;
+  float: left;
+}
+
+.Magnifier .MagMin .MagRight .car:hover {
+  cursor: pointer;
+}
+
+.Magnifier .MagMin .MagRight .like {
+  width: 142px;
+  height: 52px;
+  background: #b0b0b0;
+  text-align: center;
+  line-height: 52px;
+  font-size: 17px;
+  color: white;
+  float: left;
+  margin-left: 12px;
+}
+
+.Magnifier .MagMin .MagRight .like:hover {
+  cursor: pointer;
+}
+
+.descition {
+  width: 100%;
+  height: 315px;
+  background: #f5f5f5;
+}
+
+.descition .des {
+  width: 1226px;
+  height: 315px;
+  /* background: blue; */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.descition .des h2 {
+  font-size: 22px;
+  color: #333333;
+  margin: 28px 0 28px;
+  font-weight: normal;
+}
+
+.descition .des .desTx {
+  width: 100%;
+  height: 188px;
+  background: white;
+  overflow: hidden;
+}
+
+.descition .des .desTx p {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 48px;
+  color: #898989;
+}
+
+.descition .des .desTx p span {
+  color: #2e2e2e;
+}

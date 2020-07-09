@@ -1,0 +1,272 @@
+@import 'public';
+
+body{
+    background: #ea875e;
+}
+
+// banner
+.banner{
+    width: 100%;
+    height: 800px;
+    background: url(../img/delImg/dl-ban1.jpg) no-repeat top center;
+    background-size: cover;
+    // position: absolute;
+}
+.banner2{
+    width: 100%;
+    height: 167px;
+    background: url(../img/delImg/dl-ban2.jpg) no-repeat top center;
+    background-size: cover;
+    // position: absolute;
+}
+.banner3{
+    width: 100%;
+    height: 167px;
+    background: url(../img/delImg/dl-ban3.jpg) no-repeat top center;
+    background-size: cover;
+    // position: absolute;
+}
+.banner4{
+    margin-top: 12px;
+    width: 100%;
+    height: 167px;
+    background: url(../img/delImg/dl-ban4.jpg) no-repeat top center;
+    background-size: cover;
+    // position: absolute;
+}
+
+// 手机
+.phone{
+    width: 100%;
+    height: 877px;
+    // background: red;
+    .cPhone{
+        margin: 0 auto;
+        // background: pink;
+        width: 1234px;
+        height: 877px;
+        margin-top: 12px;
+        img{
+            width: 854px;
+            height:432px;
+            float: left;
+        }
+        .txt{
+            width: 380px;
+            height: 432px;
+            // background: blue;
+            float: right;
+            h2{
+                font-weight: normal;
+                font-size: 26px;
+                margin-top: 109px;
+                margin-left: 42px;
+            }
+            p{
+                font-size: 12px;
+                color: #666666;
+                margin-left: 42px;
+                margin-top:8px;
+            }
+            span{
+                display: block;
+                color: #ea625b;
+                font-size: 22px;
+                margin-left: 42px;
+                margin-top:40px;
+            }
+            .buy{
+                width: 160px;
+                height: 44px;
+                background: #ea625b;
+                color: white;
+                line-height: 44px;
+                margin: 22px 42px;
+                text-align: center;
+                border-radius: 3px;
+                font-size: 18px;
+            }
+        }
+        .tPhone{
+            width: 100%;
+            height: 432px;
+            background: white;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+// 手机2
+.PPhone{
+    width: 100%;
+    height: 877px;
+    // background: red;
+    .CCPhone{
+        margin: 0 auto;
+        // background: pink;
+        width: 1234px;
+        height: 877px;
+        margin-top: 12px;
+        img{
+            width: 854px;
+            height:432px;
+            float: left;
+        }
+        .TTxt{
+            width: 380px;
+            height: 432px;
+            // background: blue;
+            float: right;
+            h2{
+                font-weight: normal;
+                font-size: 26px;
+                margin-top: 109px;
+                margin-left: 42px;
+            }
+            p{
+                font-size: 12px;
+                color: #666666;
+                margin-left: 42px;
+                margin-top:8px;
+            }
+            span{
+                display: block;
+                color: #ea625b;
+                font-size: 22px;
+                margin-left: 42px;
+                margin-top:40px;
+            }
+            .Tbuy{
+                width: 160px;
+                height: 44px;
+                background: #ea625b;
+                color: white;
+                line-height: 44px;
+                margin: 22px 42px;
+                text-align: center;
+                border-radius: 3px;
+                font-size: 18px;
+            }
+        }
+        .TTPhone{
+            width: 100%;
+            height: 432px;
+            background: white;
+            margin-bottom: 12px;
+        }
+    }
+}
+
+//手机3
+.Phone3{
+    width: 100%;
+    .oPhone{
+        width: 1234px;
+        // height: 300px;
+        // background: blue;
+        margin: 12px auto 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .t_Phone{
+            width: 611px;
+            height: 493px;
+            background: white;
+            margin-bottom: 12px;
+            img{
+                height: 358px;
+                width: 611px;
+            }
+            .left{
+                float: left;
+                width: 154px;
+                height: 50px;
+                margin-top:40px;
+                margin-left: 28px;
+                p{
+                    font-size: 22px;
+                    color: black;
+                }
+                span{
+                    font-size: 12px;
+                    color: #666666;
+                }
+            }
+            .right{
+                float: right;
+                width: 161px;
+                height: 75px;
+                // background:orange;
+                margin-top:28px;
+                margin-right:45px;
+                span{
+                    font-size: 17px;
+                    color: #ea625b;
+                }
+                p{
+                    margin-top: 14px;
+                    width: 100%;
+                    height: 44px;
+                    background: #ea625b;
+                    color: white;
+                    line-height: 44px;
+                    text-align: center;
+                    border-radius: 3px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+// 手机4
+.fphone{
+    width: 100%;
+    height: 432px;
+    .la_Phone{
+        width: 1234px;
+        height: 432px;
+        margin: 0 auto 12px;
+        background: white;
+        .txt1{
+            width: 380px;
+            height: 432px;
+            float: right;
+            h2{
+                font-weight: normal;
+                font-size: 26px;
+                margin-top: 109px;
+                margin-left: 42px;
+            }
+            p{
+                font-size: 12px;
+                color: #666666;
+                margin-left: 42px;
+                margin-top:8px;
+            }
+            span{
+                display: block;
+                color: #ea625b;
+                font-size: 22px;
+                margin-left: 42px;
+                margin-top:40px;
+            }
+            .buy{
+                width: 160px;
+                height: 44px;
+                background: #ea625b;
+                color: white;
+                line-height: 44px;
+                margin: 22px 42px;
+                text-align: center;
+                border-radius: 3px;
+                font-size: 18px;
+            }
+        }
+    }
+    img{
+        width: 854px;
+        height: 432px;
+        float: left;
+    }
+}

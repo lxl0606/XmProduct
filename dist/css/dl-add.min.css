@@ -1,0 +1,52 @@
+.body-top {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.93);
+  -webkit-box-shadow: 0 0 10px #cfd0cf;
+          box-shadow: 0 0 10px #cfd0cf;
+  z-index: 999;
+}
+
+.body-top-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  float: left;
+}
+
+.menu-ul {
+  overflow: hidden;
+  float: left;
+  padding: 10px 0;
+}
+
+.menu-li {
+  float: left;
+  width: 100px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+.menu-a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.carts {
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.carts button {
+  margin: 10px;
+}

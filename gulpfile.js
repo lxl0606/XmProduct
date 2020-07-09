@@ -22,7 +22,7 @@ let autoprefixer = require("gulp-autoprefixer");
 
 //处理js
 function fnJs() {
-    return gulp.src('./src/js/es6/*.js')
+    return gulp.src('./src/js/*.js')
         .pipe(babel({
             presets: ['@babel/env']
         }))
@@ -74,7 +74,7 @@ function fnLibs(){
 
 //监听任务
 function fnWatch() {
-    gulp.watch('./src/js/es6/*.js', fnJs);
+    gulp.watch('./src/js/*.js', fnJs);
     // gulp.watch('./src/sass/*.css', fnCss);
     gulp.watch('./src/index.html',copyIndex);
     gulp.watch('./src/src/img/*',Img);

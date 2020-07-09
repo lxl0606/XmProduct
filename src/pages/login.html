@@ -26,13 +26,17 @@
                 <p>扫码登录</p>
             </div>
             <form action="">
-                <input type="text" placeholder="邮箱/手机号码/小米ID"><br>
-                <input type="password" placeholder="密码">
-                <input type="submit" value="登录">
+                <input type="text" placeholder="邮箱/手机号码/小米ID" id="phone2"><br>
+                <span id="success"></span>
+
+                <input type="password" placeholder="密码" id="pas2"><br>
+                <span id="suc"></span>
+
+                <input type="button" value="登录" id="log">
             </form>
             <div id="lastLogin">
                 <p id="phone"><a href="">手机短信登录/注册</a></p>
-                <p><a href="">立即注册 | 忘记密码?</a></p>
+                <p><a href="register.html">立即注册 | 忘记密码?</a></p>
 
             </div>
         </div>
@@ -45,6 +49,9 @@
         <p>常见问题</p>
     </div>
     <h5>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</h5>
+
+    <script src="../js/login.min.js"></script>
+    <script src="../libs/plug/cookie.js"></script>
 </body>
 
 </html>

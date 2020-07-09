@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车页</title>
+    <link rel="stylesheet" href="../css/cart.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="headerMin">
+            <div class="heaLeft">
+                <img src="../img/resImg/xm-logo.png" alt="">
+                <p>我的购物车</p>
+                <span>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+            </div>
+            <div class="heaRight">
+                <span>甄tian</span>
+                <span>|</span>
+                <span>我的订单</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 购物车 -->
+    <div class="car">
+        <!-- <div class="carMin">
+            <div class="carTop">
+                <input type="checkbox">
+                <p>全选</p>
+                <p class="pp1">商品名称</p>
+                <div class="category">
+                    <p>单价</p>
+                    <p>数量</p>
+                    <p>小计</p>
+                    <p>操作</p>
+                </div>
+
+            </div>
+            <div class="carCen">
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <img src="../img/carImg/sp1.jpg" alt="">
+                        <span>小米10 全网通版 8GB+128GB 钛银黑</span>
+                        <p>3799元</p>
+                        <div class="jj">
+                            <div class="cj">-</div>
+                            <div class="num">1</div>
+                            <div class="sj">+</div>
+                        </div>
+                        <p class="coum">7958元</p>
+                        <p class="del">X</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom_car">
+                <a href="list.html">继续购物</a>
+                <h4>共<span>1</span>件商品，已选择<span>1</span>件</h4>
+                <p>合计：<span>7598</span> 元</p>
+                <div class="buy">去结算</div>
+            </div>
+        </div> -->
+
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <thead>
+                <tr>
+                    <th width="200px"><input class="all" type="checkbox">全选</th>
+                    <th width="400px">商品名称</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+            <div class="blank"></div>
+            <tfoot>
+                <tr>
+                    <td><input class="all" type="checkbox">全选</td>
+                    <td><a href="javascript:;" id="rem">删除</a></td>
+                    <td id="good_num">已选0件商品</td>
+                    <td id="rmb">总计应付:<br>￥0.00元</td>
+                    <td colspan="2" class="js"><a href="javascript:;" id="one" class="button">结算</a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <!-- 空盒子 -->
+    <div class="blank"></div>
+
+    <!-- 购物车下方商品 -->
+    <div class="carBox">
+        <div class="cbMin">
+            <p>买购物车商品中的人还买了</p>
+            <div class="bigBox">
+                <div class="product">
+                    <img src="../img/carImg/sp2.jpg" alt="">
+                    <span>手机usb数据线</span>
+                    <h5>349元</h5>
+                    <div class="buy">加入购物车</div>
+                </div>
+                <div class="product">
+                    <img src="../img/carImg/sp3.jpg" alt="">
+                    <span>手机usb数据线</span>
+                    <h5>349元</h5>
+                    <div class="buy">加入购物车</div>
+                </div>
+                <div class="product">
+                    <img src="../img/carImg/sp4.jpg" alt="">
+                    <span>手机usb数据线</span>
+                    <h5>349元</h5>
+                    <div class="buy">加入购物车</div>
+                </div>
+                <div class="product">
+                    <img src="../img/carImg/sp5.jpg" alt="">
+                    <span>手机usb数据线</span>
+                    <h5>349元</h5>
+                    <div class="buy">加入购物车</div>
+                </div>
+                <div class="product">
+                    <img src="../img/carImg/sp2.jpg" alt="">
+                    <span>手机usb数据线</span>
+                    <h5>349元</h5>
+                    <div class="buy">加入购物车</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer Foot">
+        <div class="footerMin">
+            <div class="ftTop">
+                <ul>
+                    <li>
+                        <div class="picCen">
+                            <a href=""><img src="../img/indImg/ft1.png" alt=""></a>
+                            <span>预约维修服务</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picCen">
+                            <a href=""><img src="../img/indImg/ft2.png" alt=""></a>
+                            <span>7天无理由退货</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picCen">
+                            <a href=""><img src="../img/indImg/ft3.png" alt=""></a>
+                            <span>15天免费换货</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picCen">
+                            <a href=""><img src="../img/indImg/ft4.png" alt=""></a>
+                            <span>满99元包邮</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="picCen">
+                            <a href=""><img src="../img/indImg/ft5.png" alt=""></a>
+                            <span>520余家售后网点</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="ftCenter">
+                <div class="fcLeft">
+                    <div class="ulList">
+                        <ul>
+                            <li class="first">帮助中心</li>
+                            <li>账户管理</li>
+                            <li>购物指南</li>
+                            <li>订单操作</li>
+                        </ul>
+                    </div>
+                    <div class="ulList">
+                        <ul>
+                            <li class="first">服务支持</li>
+                            <li>售后政策</li>
+                            <li>自助服务</li>
+                            <li>相关下载</li>
+                        </ul>
+                    </div>
+                    <div class="ulList">
+                        <ul>
+                            <li class="first">线下门店</li>
+                            <li>小米之家</li>
+                            <li>服务网点</li>
+                            <li>授权体验店</li>
+                        </ul>
+                    </div>
+                    <div class="ulList">
+                        <ul>
+                            <li class="first">关于小米</li>
+                            <li>了解小米</li>
+                            <li>加入小米</li>
+                            <li>投资者关系</li>
+                        </ul>
+                    </div>
+                    <div class="ulList">
+                        <ul>
+                            <li class="first">关注我们</li>
+                            <li>新浪微博</li>
+                            <li>官方微信</li>
+                            <li>联系我们</li>
+                        </ul>
+                    </div>
+                    <div class="ulList">
+                        <ul>
+                            <li class="first">特色服务</li>
+                            <li>F码通道</li>
+                            <li>礼物码</li>
+                            <li>防伪查询</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fcRight">
+                    <p>400-100-5678</p>
+                    <p class="p1">8:00-18:00（仅收市话费）</p>
+                    <div class="ss1">
+                        <a href=""><img src="../img/indImg/ft6.png" alt=""></a>
+                        <span>人工客服</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最下面的footer -->
+    <div class="lastFoot">
+        <div class="lfMin">
+            <!-- <div class="lfImg">
+                    <a href=""><img src="./static/logo1.png" alt=""></a>
+                </div> -->
+            <div class="rgImg">
+                <div class="ptext">
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+                    <p>小米商城</p>
+
+                </div>
+                <div class="ptp">
+                    <p>© mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号</p>
+                    <p>（京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京)-非经营性-2014-0090 营业执照 医疗器械质量公告</p>
+                    <p>增值电信业务许可证 网络食品经营备案（京）【2018】WLSPJYBAHF-12 食品经营许可证</p>
+                    <p>违法和不良信息举报电话：185-0130-1238 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试</p>
+
+                </div>
+                <a href=""><img src="../img/indImg/in-ft1.png" alt=""></a>
+                <a href=""><img src="../img/indImg/in-ft2.png" class="ftImg"></a>
+            </div>
+        </div>
+    </div>
+    <script src="../libs/plug/jquery.js"></script>
+    <script src="../js/cart.min.js"></script>
+</body>
+
+</html>

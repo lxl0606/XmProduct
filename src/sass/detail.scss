@@ -1,0 +1,319 @@
+@import 'public';
+
+// 参数
+.parameter{
+    width: 100%;
+    height: 64px;
+    .par{
+        width: 1226px;
+        height: 64px;
+        /* background: pink; */
+        margin: 0 auto;
+        border-top: 1px solid #e0e0e0;
+        .parleft{
+            float: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 140px;
+            height: 64px;
+            h5{
+                font-weight: normal;
+                font-size: 15px;
+                color: #333;
+            }
+            span{
+                color: #61abea;
+                font-size: 11px;
+            }
+            p{
+                font-size: 10px;
+                color: #616161;
+                &:hover{
+                    color: #ff6700;
+                    cursor: pointer;
+                }
+            }
+        }
+        .parRight{
+            float: right;
+            width: 264px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p{
+                font-size: 13px;
+                color: #616161;
+                &:hover{
+                    color: #ff6700;
+                    cursor: pointer;
+                }
+                span{
+                    margin-left: 14px;
+                    // margin-right: 8px;
+                    color: #e0e2e8;
+                }
+            }
+        }
+    }
+}
+
+//放大镜与参数
+.Magnifier{
+    width: 100%;
+    .MagMin{
+        width: 1226px;
+        margin: 0 auto;
+        // background: orange; 
+        // overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        .MagRight{
+            width: 650px;
+            height: 1545px; 
+            // background: pink;
+            h3{
+                font-size: 24px;
+                color: #212121;
+                margin: 26px 0 14px;
+                font-weight: normal;
+            }
+            p{
+                font-size: 13px;
+                color: #b0b0b0;
+                line-height: 21px;
+                span{
+                    font-size: 13px;
+                    color: #ff6700;
+                }
+                
+            }
+            h5{
+                font-weight: normal;
+                margin: 18px 0 18px;
+                color: #ff6700;
+                font-size: 14px;
+            }
+            h4{
+                font-weight: normal;
+                color: #ff6700;
+                font-size: 20px;
+            }
+            .area{
+                width: 606px;
+                height: 148px;
+                margin:18px 0 34px;
+                border-top: 1px solid #e0e0e0;
+                .areatxt{
+                    width: 100%;
+                    height: 103px;
+                    background: #fafafa;
+                    margin-top: 44px;
+                    border: 1px solid #e0e0e0;
+                    .areamin{
+                        width: 300px;
+                        height: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 30px;
+                        margin-left: 20px;
+                        p{
+                            font-size: 14px;
+                            color: #333333;
+                        }
+                        span{
+                            font-size: 14px;
+                            color: #ff6700;
+                        }
+                       
+                    }
+                    h4{
+                        font-weight: normal;
+                        color: #ff6700;
+                        font-size: 13px;
+                        margin-top: 9px;
+                        margin-left: 56px;
+                    }
+                    
+                }
+            }
+            h3{
+                font-size: 20px;
+                color: #333333;
+                font-weight: normal;
+                
+            }
+            .edition{
+                width: 100%;
+                /* height: 105px; */
+                margin: 15px auto 20px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .ed1{
+                    width: 296px;
+                    height: 45px;
+                    border: 1px solid #e0e0e0;
+                    margin-bottom: 13px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover{
+                        border:1px solid #ff6700;
+                        cursor: pointer;
+                    }
+                    span:first-child{
+                        font-size: 16px;
+                        color: #333333;
+                        margin-right: 36px;
+                    }
+                    span:last-child{
+                        font-size: 16px;
+                        color: #757575;
+                    }
+                
+                }
+            }
+            .protect{
+                width: 100%;
+                height: 138px;
+                border:1px solid #e0e0e0;
+                position: relative;
+                margin-bottom: 1px;
+                img{
+                    display: block;
+                    margin: 32px 20px 32px 26px;
+                    float: left;
+                }
+                .poTx{
+                    float: left;
+                    width: 216px;
+                    height:75px; 
+                    /* background: orange; */
+                    margin: 32px 180px 34px 0;
+                    p{
+                        line-height: 26px;
+                        span{
+                            font-size: 12px;
+                            margin: 4px;
+                        }
+                        span:nth-child(2){
+                            color: #757575;
+                            
+                        }
+                    }
+                    p:nth-child(1){
+                        font-size: 18px;
+                        color: #333333;
+                    }
+                    p:nth-child(2){
+                        font-size: 12px;
+                        color: #b7b0b0;
+                    }
+                    p:nth-child(3){
+                        font-size: 12px;
+                        color: #757575;
+                    }
+                }
+                .price{
+                    float: right;
+                    position: absolute;
+                    top: 92px;
+                    right: 18px;
+                    color: #333333;
+                }
+            }
+            .sum{
+                width: 100%;
+                height: 140px;
+                background: #f9f9fa;
+                margin: 32px 0 32px;
+                position: relative;
+                p{
+                    color: #616161;
+                    font-size: 13px;
+                    position: absolute;
+                    left: 27px;
+                    top: 34px;
+                    span{
+                        color: #616161;
+                        margin-left: 318px;
+                    }
+                }
+                h2{
+                    font-size: 22px;
+                    color: #ff6700;
+                    font-weight: normal;
+                    position: absolute;
+                    left: 27px;
+                    top: 83px;
+                
+                }
+            }
+            .car{
+                width: 299px;
+                height: 52px;
+                background: #ff6700;
+                text-align: center;
+                line-height: 52px;
+                font-size: 17px;
+                color: white;
+                float: left;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+            .like{
+                width: 142px;
+                height: 52px;
+                background: #b0b0b0;
+                text-align: center;
+                line-height: 52px;
+                font-size: 17px;
+                color: white;
+                float: left;
+                margin-left: 12px;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+// 价格说明
+.descition{
+    width: 100%;
+    height: 315px;
+    background: #f5f5f5;
+    .des{
+        width: 1226px;
+        height: 315px;
+        /* background: blue; */
+        margin: 0 auto;
+        overflow: hidden;
+        h2{
+            font-size: 22px;
+            color:#333333 ;
+            margin: 28px 0 28px;
+            font-weight: normal;
+        }
+        .desTx{
+            width: 100%;
+            height: 188px;
+            background: white;
+            overflow: hidden;
+            p{
+                text-align: center;
+                line-height:30px;
+                margin-top: 48px;
+                color: #898989;
+                span{
+                    color: #2e2e2e;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "type":"xmsg",
+        "mesage":[{
+            "img":"img/indImg/in-sg3.png",
+            "name":"最生活毛巾 Air (10条装)",
+            "introduce":"给生活一条好毛巾",
+            "price":"99元"
+        },{
+            "img":"img/indImg/in-sg4.png",
+            "name":"小米手环3 NFC版 黑色",
+            "introduce":"能刷公交卡的手环",
+            "price":"149元"
+        },{
+            "img":"img/indImg/in-sg5.png",
+            "name":"小米旅行箱 青春款 黄色 20寸",
+            "introduce":"环保材料，轻便重量",
+            "price":"199元"
+        },{
+            "img":"img/indImg/in-sg1.png",
+            "name":"高品质多功能头戴耳机",
+            "introduce":"我的私人KTV",
+            "price":"169元"
+        }]
+    },{
+        "type":"phone",
+        "mes":[{
+            "img":"img/indImg/in-ph1.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph2.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph3.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph4.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph5.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph6.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph7.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        },{
+            "img":"img/indImg/in-ph2.png",
+            "name":"小米10 青春版 5G",
+            "introduce":"50倍潜望式变焦/轻薄5G手机",
+            "price":"1899元起"
+        }]
+    },{
+        "type":"Tv",
+        "mess":[{
+            "img":"img/indImg/in-tv3.png",
+            "name":"小米电视4c 32英寸",
+            "introduce":"高清液晶屏 人工智能系统",
+            "price":"699元起"
+        },{
+            "img":"img/indImg/in-tv4.png",
+            "name":"小米电视4c 32英寸",
+            "introduce":"高清液晶屏 人工智能系统",
+            "price":"699元起"
+        },{
+            "img":"img/indImg/in-tv5.png",
+            "name":"小米电视4c 32英寸",
+            "introduce":"高清液晶屏 人工智能系统",
+            "price":"699元起"
+        },{
+            "img":"img/indImg/in-tv6.png",
+            "name":"小米电视4c 32英寸",
+            "introduce":"高清液晶屏 人工智能系统",
+            "price":"699元起"
+        }]
+    }
+]
